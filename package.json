@@ -1,0 +1,16 @@
+{
+  "name": "brower-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Guang(Gino) Xu",
+  "license": "ISC",
+  "main": "app.js",
+  "license": "MIT"
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
