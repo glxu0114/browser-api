@@ -3,7 +3,7 @@ var path = require('path');
 var app = express();
 app.set( 'port', process.env.PORT || 8080 );
 
-app.get('/api/whoami/', function (req, res) {
+app.get(['/api/whoami/', '/',], function (req, res) {
   
   //IP address
   var ip = req.headers["X-Forwarded-For"]
